@@ -4,17 +4,17 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'index',
+      name: 'Home',
       component: () => import('../pages/index.vue')
     },
     {
       path: '/about',
-      name: 'HomeView',
+      name: 'Cats',
       component: () => import('../pages/HomeView.vue')
     },
     {
       path: '/facts',
-      name: 'AnimalFacts',
+      name: 'Facts',
       component: () => import('../pages/AnimalFacts.vue')
     }
   ]
